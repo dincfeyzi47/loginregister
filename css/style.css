@@ -1,0 +1,178 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background: #100C27;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+#login-box{
+    width: 850px;
+    height: 400px;
+    background: #28243d;
+    display: flex;
+    box-shadow: -2px 3px 107px 14px rgba(245,245,245,0.75);
+    -webkit-box-shadow:-2px 3px 107px 14px rgba(245,245,245,0.75) ;
+    -moz-box-shadow:-2px 3px 107px 14px rgba(245,245,245,0.75)
+}
+
+#login-box .login-sol{
+    background: url(../img/home-office1.jpg);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover ;
+}
+
+#login-box .login-sol h1{
+    color: #fff;
+    font-size: 26px;
+ 
+
+}
+
+#login-box .login-sol a{
+    color: #fff;
+    border: solid 2px #fff;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 8px;
+
+
+    
+}
+
+#login-box .login-sol p{
+    color: #fff;
+    display: block;
+    padding: 20px 10px;
+
+}
+
+
+
+
+
+.kullanici-adi::before{
+    font-family: FontAwesome;
+    top: 0;
+    left: -5px;
+    padding-right: 10px;
+    content: "\f007";
+
+}
+
+
+.giris-butonu{
+    background: #f78503;
+    color: #ffff;
+    padding: 14px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.kullanici-adi, .sifre{
+    color: #93919e;
+    border-bottom: solid 1px #cccccc;
+    background: #28243d;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding: 15px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    position: relative;
+
+}
+
+
+
+
+.kullanici-adi{
+    background: url(../img/user.png);
+    background-size: contain;
+    background-repeat:no-repeat;
+
+}
+.sifre{
+    background: url(../img/lock.png);
+    background-size:contain ;
+    background-repeat:no-repeat ;
+}
+
+#login-box .login-sag{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+#login-box .form-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:normal;
+    width: 100%;
+    text-align: left;
+}
+
+#login-box .login-sag h1{
+    display: block;
+    text-align: left;
+    color: #fff;
+    font-size: 23px;
+    width: 100%;
+}
